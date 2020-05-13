@@ -1,14 +1,14 @@
 # db2wh-gsdb-sample
 steps to load GO SALES sample db to DB2 Warehouse on Cloud from MACOS
 
-For maby years, IBM has provided a rich and realistic database to help users become familiar with database applications and data warehousing - the Great Outdoors Sales database, or GSDB.
+For many years, IBM has provided a rich and realistic database to help users become familiar with database applications and data warehousing - the Great Outdoors Sales database, or GSDB.
 
 Current deployments of Db2 Warehouse on Cloud (db2wh) do not include any sample data; you can still obtain the "GO SALES" sample from [IBM Software downloads - GSDB](ftp://ftp.software.ibm.com/software/data/sample/GSDB_DB2_LUW_ZOS_v2r3.zip), and apply that manually to db2wh.
 
 In the past, this would have been relatively straightforward on MACOS, but IBM no longer provides DB2 Server or Connect products on MACOS; an alternative strategy is needed to use a MACOS client to setup the GSDB sample database.
 
-two main options exist -
-+ install the Data Server driver package, with CLPPlus and the db2cli utilities
+Two main options exist -
++ install the IBM Data Server driver package, with CLPPlus and db2cli utilities
 + create a docker instance of Db2, get access to all the tools and utilities, and get a local database server to play with
 
 The first option ultimately proved unhelpful as it does not provide a native db2 command processor (needed by the GSDB install scripts). The driver package is intended for user-written applications and 3rd-party utilities (e.g. Excel) that make use of ODBC and JDBC.
