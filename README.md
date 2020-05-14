@@ -52,7 +52,7 @@ Unzip the GSDB package, and make a couple of adjustments to the install scripts 
 
 If GOSALES_DPF defaults to N, the load process will execute until all tables are loaded (except CUST_CUSTOMER), and all setup for contraints and views will be bypassed. 
 
-You will find schema information for GSDB in the documentation for the current/last version of [IBM Data Studio](https://www.ibm.com/support/knowledgecenter/SS62YD_4.1.1/com.ibm.sampledata.go.doc/topics/greatoutdoors.html)
+You will find schema information for GSDB in the documentation for the current/last version of [IBM pureQuery](https://www.ibm.com/support/knowledgecenter/SSS77M_2.2.1/com.ibm.sampledata.go.ref.doc/content/-top-summary.html)
 
 
 
